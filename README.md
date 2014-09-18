@@ -1,9 +1,8 @@
 # Audio Stream Recorder
 - - -
 
-A HTML5 audio stream recorder over websockets.
+An audio recorder service over websockets.
 
-[![NPM version](https://badge.fury.io/js/audio-stream-recorder.svg)](http://badge.fury.io/js/audio-stream-recorder) [![Build Status](https://travis-ci.org/darrylwest/audio-stream-recorder.svg?branch=develop)](https://travis-ci.org/darrylwest/audio-stream-recorder) [![Dependency Status](https://david-dm.org/darrylwest/audio-stream-recorder.svg)](https://david-dm.org/darrylwest/audio-stream-recorder)
 
 ## Introduction
 
@@ -68,13 +67,13 @@ Here is a sample configuration file.
 
 ~~~
 {
-    "port":29169,
+    "port":29162,
     "path":"/AudioRecorder",
-    "appkey":"xx"
+    "appkey":"bd0eb498-3f58-11e4-82a9-374e0062e7be"
 }
 ~~~
 
-You would want to have a proxy and preferrably HTTPS in front of this but port 29169 works for development.
+You would want to have a proxy and preferrably HTTPS in front of this but port 29162 works for development.
 
 ## Tests
 

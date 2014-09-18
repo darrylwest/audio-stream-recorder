@@ -6,15 +6,15 @@
 var should = require('chai').should(),
     dash = require('lodash'),
     MockLogger = require('simple-node-logger').mocks.MockLogger,
-    SpellCheckService = require('../lib/SpellCheckService');
+    AudioRecorderService = require('../lib/AudioRecorderService');
 
-describe('SpellCheckService', function() {
+describe('AudioRecorderService', function() {
     'use strict';
 
     var createOptions = function() {
         var opts = {};
 
-        opts.log = MockLogger.createLogger('SpellCheckService');
+        opts.log = MockLogger.createLogger('AudioRecorderService');
         opts.hub = {};
         opts.appkey = 'test-server';
 
@@ -22,17 +22,14 @@ describe('SpellCheckService', function() {
     };
 
     describe('#instance', function() {
-        var service = new SpellCheckService( createOptions()),
+        var service = new AudioRecorderService( createOptions()),
             methods = [
-                'start',
-                'createMessageProducer',
-                'messageHandler',
-                'checkSpelling'
+                'start'
             ];
 
-        it('should create an instance of SpellCheckService', function() {
+        it('should create an instance of AudioRecorderService', function() {
             should.exist( service );
-            service.should.be.instanceof( SpellCheckService );
+            service.should.be.instanceof( AudioRecorderService );
         });
 
         it( 'should contain all known methods based on method count and type', function() {

@@ -1,7 +1,7 @@
 {
   "name": "audio-stream-recorder",
   "version": "00.90.10",
-  "description": "A HTML5 audio recorder over websockets",
+  "description": "An audio recorder service over websockets",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   "dependencies": {
     "background-service-runner": "^0.90.20",
     "lodash": "~2.4.1",
-    "moment": "^2.8.1",
     "node-uuid": "~1.4.1",
     "simple-node-logger": "^0.92.11"
   },
