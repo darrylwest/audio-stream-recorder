@@ -1,7 +1,6 @@
 {
-    "port":29169,
-    "hubName":"/MessageHub",
-    "channels":[ "/spellcheck" ],
-    "appkey":"71268c55-a8b3-4839-a1f5-34e3d6e70fdd"
+    "port":29162,
+    "path":"/AudioRecorder",
+    "appkey":"bd0eb498-3f58-11e4-82a9-374e0062e7be"
 }
 
