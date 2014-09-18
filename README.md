@@ -3,6 +3,7 @@
 
 An audio recorder service over websockets.
 
+*badges go here...*
 
 ## Introduction
 
