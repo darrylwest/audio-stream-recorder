@@ -1,4 +1,5 @@
 /**
+ * @class AudioRecorderServiceTests
  *
  * @author: darryl.west@roundpeg.com
  * @created: 8/30/14
@@ -16,6 +17,12 @@ describe('AudioRecorderService', function() {
 
         opts.log = MockLogger.createLogger('AudioRecorderService');
         opts.appkey = 'test-server';
+
+        opts.port = 4332;
+        opts.path = '/AudioRecorder';
+        opts.encode = 'wav';
+        opts.daemon = false;
+        opts.homepage = '<h1>hi</h1>';
 
         return opts;
     };
