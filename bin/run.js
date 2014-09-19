@@ -6,7 +6,7 @@ var config = require( __dirname + '/../config.json'),
     
 // don't run in background...
 config.daemon = false;
-console.log('message hub: ', config.hubName);
+console.log('config: ', config);
 
 service = AudioRecorderService.createInstance( config );
 service.start();

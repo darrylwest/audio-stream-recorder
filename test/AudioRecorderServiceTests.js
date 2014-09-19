@@ -24,7 +24,9 @@ describe('AudioRecorderService', function() {
         var service = new AudioRecorderService( createOptions()),
             methods = [
                 'start',
-                'createServer',
+                'createHTTPServer',
+                'createSocketServer',
+                'handleConnection',
                 'pageHandler'
             ];
 

@@ -22,9 +22,11 @@
   ],
   "dependencies": {
     "background-service-runner": "^0.90.20",
+    "binaryjs": "^0.2.1",
     "lodash": "~2.4.1",
     "node-uuid": "~1.4.1",
-    "simple-node-logger": "^0.92.11"
+    "simple-node-logger": "^0.92.11",
+    "wav": "^0.1.2"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
