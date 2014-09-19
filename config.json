@@ -1,6 +1,8 @@
 {
     "port":29162,
     "path":"/AudioRecorder",
+    "encode":"wav",
+    "homepage":"<html><head><title>Audio Recorder</title></head><body>Audio Recorder</body></html>",
     "appkey":"bd0eb498-3f58-11e4-82a9-374e0062e7be"
 }
 

@@ -15,7 +15,6 @@ describe('AudioRecorderService', function() {
         var opts = {};
 
         opts.log = MockLogger.createLogger('AudioRecorderService');
-        opts.hub = {};
         opts.appkey = 'test-server';
 
         return opts;
@@ -24,7 +23,9 @@ describe('AudioRecorderService', function() {
     describe('#instance', function() {
         var service = new AudioRecorderService( createOptions()),
             methods = [
-                'start'
+                'start',
+                'createServer',
+                'pageHandler'
             ];
 
         it('should create an instance of AudioRecorderService', function() {
